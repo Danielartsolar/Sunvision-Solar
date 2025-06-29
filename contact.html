@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact – Sunvision Solar</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="assets/images/SV Logo 2.png" alt="Sunvision Solar logo"></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="container">
+    <h1>Request a Quote</h1>
+    <form name="inquiry" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="inquiry">
+      <label>Name<input type="text" name="name" required></label>
+      <label>Email<input type="email" name="_replyto" required></label>
+      <label>Phone<input type="tel" name="phone"></label>
+      <label>Service Interest<input type="text" name="service"></label>
+      <label>Message<textarea name="message" required></textarea></label>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Sunvision Solar</p>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
